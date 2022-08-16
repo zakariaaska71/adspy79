@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav{
+    background-color: aliceblue;
+}
+
+.hesderBolg{
+    background-image: url('../images/blog/pexels-serpstat-572056.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 73px;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.coverBlog{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .6;
+}
+
+
+.hesderBolg h2{
+    position: relative;
+    top: 36%;
+    font-size: 70px;
+    color: orange;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+
+
+.card-deck{
+    padding-top: 0px;
+}
+
+.card-blog{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 1%;
+}
+
+
+@media (min-width: 992px){
+    .col-lg-4{
+        max-width:31.3%
+    }
+    
+}
+
+
+.card-blog .card-img-top{
+    margin-top: 10px;
+}
+
+
+
+.card-blog .card-body .card-title a{
+    color: orange;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+
+.card-blog .card-body .card-text{
+    color: #666;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    
+}
+
+.text-muted{
+    color: #aaa !important;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+
+
+.contentPage{
+    position: relative;
+    top: 130px;
+    height: 1800px;
+}
+
+.contentPage h2{
+
+    font-size: 40px;
+    color: orange;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.contentPage img{
+    height: 570px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.img-main{
+    margin-bottom: 0 !important;
+}
+
+.contentPage p{
+    margin-bottom: 5px;
+}
+
+.contentPage .text{
+    line-height: 25px;
+    float: left;
+    max-width: 800px;
+
+}
+
+
+
+.breadcrumb{
+    margin-top: 77px;
+    background-color: white;
+}
+
+
+aside{
+    float: right;
+    height: 300px;
+    width: 280px;
+    background-color: aliceblue;
+    border-radius: 3%;
+    padding: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 15px;
+
+
+}
+
+aside ul li{
+    line-height: 40px;
+}
+
+aside h3{
+    text-transform: capitalize;
+    color: #666;
+    font-size: 20px;
+}
+
+
+@media(max-width:568px){
+
+    .contentPage{
+        height: 2400px;
+    }
+    .contentPage img{
+        width: 100%;
+        height: 280px;
+        margin-bottom: 20px;
+    }
+
+    .contentPage .text{
+        font-size: 14px;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .relatedArticle{
+        display: none;
+    }
+
+    .col-8{
+        flex: none;
+        max-width: 100%;
+    }
+
+    aside{
+        /* float: right;
+        font-size: 10px;
+        width:48% ;
+        margin: 1%; */
+        display: none;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width:992px){
+
+    .contentPage{
+        height: 2400px;
+    }
+    .contentPage img{
+        width: 100%;
+        height: 470px;
+        margin-bottom: 20px;
+    }
+
+    .contentPage .text{
+        font-size: 14px;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .relatedArticle{
+        display: none;
+    }
+
+    aside{
+        float: right;
+        width: 213px;
+        height: 260px;
+        font-size: 12px;
+    }
+}

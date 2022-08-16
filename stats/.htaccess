@@ -1,0 +1,7 @@
+AuthName "alladspy.com statistics"
+AuthType Basic
+AuthUserFile /home/alladspy/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>

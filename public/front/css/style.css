@@ -1,0 +1,643 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* start nav*/
+
+nav {
+    background-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.navbar-light .navbar-brand {
+    font-size: 30px;
+    font-weight: 700;
+    color: #007bff;
+}
+
+.login,
+.signup {
+    height: 30px;
+    width: 74px;
+    text-transform: capitalize;
+    font-size: 12px;
+    margin-left: 26px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 3px;
+}
+
+
+/* end nav*/
+
+
+/* start header*/
+
+.cover {
+    background-image: url('/front/images/blob-scene-haikei\ \(6\).svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* height: 680px; */
+    position: relative;
+    z-index: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+    z-index: 5;
+}
+
+.header .textContent {
+    max-width: 60%;
+}
+
+.header .imgContent {
+    min-width: 46%;
+}
+
+.header .textContent h2 {
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 55px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.header .textContent h2 span {
+    color: orange;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.header .textContent p {
+    color: #888;
+    max-width: 700px;
+    font-size: 20px;
+}
+
+.header .textContent button {
+    height: 40px;
+    width: 110px;
+    color: white;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.header .imgContent img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* end header*/
+
+
+/* start forwho*/
+
+.forWho {
+    padding-top: 60px;
+    height: 870px;
+    background-image: url('/front/images/backgrounds/Animated\ Shape\ \(7\).svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.forWho h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    color: orange;
+    letter-spacing: 2px;
+}
+
+.forWho p {
+    color: #666;
+    text-transform: capitalize;
+    max-width: 738px;
+    margin: auto;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+iframe {
+    border: 15px solid aliceblue;
+    border-radius: 1%;
+    width: 100% !important;
+}
+
+
+/* end forwho*/
+
+
+/* start aboutUs*/
+
+.aboutUs {
+    padding-top: 80px;
+    overflow: auto;
+    background-color: aliceblue;
+    padding-bottom: 40px;
+}
+
+.aboutUs h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: orange;
+    letter-spacing: 2px;
+}
+
+.aboutUs .right {
+    max-width: 50%;
+    padding-top: 50px;
+}
+
+.aboutUs .right h3 {
+    color: #666;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+
+.aboutUs p {
+    color: #888;
+}
+
+.aboutUs .left {
+    max-width: 48%;
+}
+
+.aboutUs .left img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* end aboutUs*/
+
+
+/* start products*/
+
+.products {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    /* background-image: url('/front/images/backgrounds/Animated\ Shape\ \(14\).svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.products h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    color: orange;
+    letter-spacing: 2px;
+}
+
+.products .product img {
+    width: 180px;
+    height: 180px;
+}
+
+.product h3 {
+    color: #007bff;
+    text-transform: capitalize;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.products p {
+    color: #666;
+    text-transform: capitalize;
+}
+
+
+/* end products*/
+
+
+/* start pricingTable*/
+
+.pricingTable {
+    padding-top: 80px;
+    background-color: aliceblue;
+    padding-bottom: 40px;
+}
+
+.pricingTable .row {
+    justify-content: center;
+}
+
+.pricingTable h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    color: orange;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+.pricingTable .price-card {
+    border-radius: 4%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    margin: 1%;
+    background-color: white;
+}
+
+.pricingTable .price-card ul li span {
+    position: absolute;
+    left: -20px;
+}
+
+.pricingTable .price-card ul li {
+    line-height: 28px;
+    margin-bottom: 5px;
+    color: #888;
+}
+
+.pricingTable .price-card ul li::before {
+    content: ' ★ ';
+    color: #0095ff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -2em;
+}
+
+.price-card .fa-check-circle {
+    color: #007bff;
+    font-size: 20px !important;
+}
+
+.price-card h3 {
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 26px;
+    color: #007bff;
+}
+
+.price-card p {
+    color: #f00;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.price-card p span {
+    color: #666;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.price-card button {
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+
+/* end pricingTable*/
+
+
+/* start contact us*/
+
+.contactUs {
+    margin-top: 80px;
+    height: 600px;
+    /* background-image: url('/front/images/backgrounds/Animated\ Shape\ \(8\).svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.contactUs .left {
+    max-width: 50%;
+}
+
+.contactUs .right {
+    min-width: 40%;
+    padding-top: 0px;
+    margin-right: 30px;
+}
+
+.contactUs h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    color: orange;
+    letter-spacing: 2px;
+}
+
+.contactUs p {
+    color: #666;
+    text-transform: capitalize;
+    max-width: 400px;
+    padding-bottom: 20px;
+}
+
+.contactUs .right img {
+    width: 100%;
+    height: 100%;
+}
+
+.contactUs .left button {
+    height: 40px;
+    width: 110px;
+    color: white;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+form {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 16px;
+    border-radius: 3%;
+}
+
+
+/* end contact us*/
+
+
+/* start footer*/
+
+.footer {
+    padding-top: 100px;
+    padding-top: 30px;
+    background-color: aliceblue;
+}
+
+.footer div span {
+    font-size: 3rem;
+    display: inline-block;
+    margin-bottom: 20px;
+    line-height: 80px;
+}
+
+.footer span:first-of-type {
+    color: #007bff;
+    font-weight: 700;
+}
+
+.footer span:last-of-type {
+    color: orange;
+}
+
+.footer div p {
+    color: #888;
+    text-transform: capitalize;
+    font-weight: 600;
+    max-width: 430px;
+}
+
+.footer div a {
+    text-transform: capitalize;
+}
+
+.footer h2 {
+    text-transform: capitalize;
+    color: #368dec;
+    font-size: 24px;
+    line-height: 94px;
+}
+
+.footer div ul li {
+    color: #368dec;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.email a {
+    text-decoration: none;
+}
+
+.footer div ul li:hover {
+    color: orange;
+}
+
+.email a:hover {
+    color: orange;
+}
+
+.footer div .address,
+.footer div .phone,
+.footer div .email {
+    margin-bottom: 10px;
+}
+
+@media(max-width: 575.98px) {}
+
+@media(min-width: 576px) and (max-width: 767.98px) {
+    .footer h2 {
+        line-height: 40px;
+        margin-top: 20px;
+    }
+    .footer div .address,
+    .footer div .phone,
+    .footer div .email {
+        margin-bottom: 8px;
+    }
+}
+
+
+/* end footer*/
+
+
+/* start copyrights*/
+
+.copyRights {
+    background-color: aliceblue;
+    border-top: #368dec 1px solid;
+}
+
+.copyRights div {
+    padding-top: 10px;
+}
+
+.copyRights div p {
+    font-weight: 600;
+    color: #888;
+}
+
+.copyRights ul {
+    text-align: right;
+}
+
+.copyRights ul li {
+    display: inline-block;
+    margin-left: 15px;
+    color: #888;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+/* end copyrights*/
+
+@media (max-width: 575.98px) {
+    .header {
+        flex-direction: column;
+        transform: translateY(30%);
+        text-align: center;
+    }
+    .cover {
+        height: 55vh;
+    }
+    .header .imgContent {
+        display: none;
+    }
+    .header .textContent {
+        max-width: 100%;
+    }
+    .header .textContent h2 {
+        font-size: 40px !important;
+    }
+    .header .textContent p {
+        font-size: 17px;
+    }
+    iframe {
+        width: 100%;
+        height: 360px;
+    }
+    .forWho {
+        height: 725px;
+    }
+    .forWho h2 {
+        font-size: 32px;
+    }
+    .aboutUs .left,
+    .aboutUs .right {
+        float: none;
+        max-width: 100%;
+        text-align: center
+    }
+    .aboutUs .right {
+        padding-top: 30px;
+    }
+    .aboutUs h2 {
+        font-size: 32px;
+    }
+    .aboutUs .right h3 {
+        font-size: 24px;
+        padding-bottom: 3px;
+    }
+    .aboutUs p {
+        font-size: 14px;
+    }
+    .pricingTable .col-sm-12 {
+        width: 65%;
+    }
+    .pricingTable h2 {
+        font-size: 32px;
+    }
+    .pricingTable h3 {
+        font-size: 24px;
+    }
+    .products h2 {
+        font-size: 32px;
+    }
+    .products p {
+        font-size: 14px;
+    }
+    .contactUs {
+        height: 550px;
+    }
+    .contactUs h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+    .contactUs p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .contactUs .right,
+    .contactUs .left {
+        float: none;
+        max-width: 100%;
+    }
+    .contactUs .right {
+        display: none;
+    }
+    .footer h2 {
+        line-height: 20px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .footer div .address,
+    .footer div .phone,
+    .footer div .email {
+        margin-bottom: 8px;
+    }
+    .footer span:first-of-type {
+        font-size: 40px;
+    }
+    .footer div span {
+        font-size: 36px;
+    }
+    .copyRights div p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .cover {
+        height: 60vh;
+    }
+    .header {
+        transform: translateY(30%);
+    }
+    .pricingTable {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .col-md-6 {
+        max-width: 47%;
+    }
+    .pricingTable .row {
+        justify-content: left;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .cover {
+        height: 60vh;
+    }
+    .header {
+        transform: translateY(30%);
+    }
+}
